@@ -34,6 +34,7 @@ class ViewController: UIViewController {
             alertController.addAction(alertAction)
             self.present(alertController, animated: true, completion: nil)
         }
+        
             
             let calendar = Calendar.current
             let component  = calendar.dateComponents([.year, .month, .day], from: birthDate, to: today)
